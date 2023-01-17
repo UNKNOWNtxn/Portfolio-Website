@@ -21,7 +21,7 @@ const About: NextPage = () => {
     return (
         <>
         <Head>
-          <title>A little bit about me</title>
+          <title>All About Me</title>
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>

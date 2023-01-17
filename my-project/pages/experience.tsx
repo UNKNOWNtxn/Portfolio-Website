@@ -8,7 +8,7 @@ const Experience: NextPage = () => {
     return (
         <>
         <Head>
-          <title>All of my work experience and school accomplishments</title>
+          <title>Experience and Education</title>
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
