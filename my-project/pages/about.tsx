@@ -36,7 +36,7 @@ const About: NextPage = () => {
             <Link className='sm:invisible md:visible' href="/">
             <Image className='fixed top-5 left-5'
             src={logo}
-            alt="hello"
+            alt="BackHome"
             width={200}
             height={200}
             />
@@ -44,7 +44,7 @@ const About: NextPage = () => {
             <Link className='sm:visible md:invisible' href="/">
             <Image className=' sm:visible md:invisible absolute top-5 left-5'
             src={logo}
-            alt="hello"
+            alt="BackHome"
             width={125}
             height={125}
             />
@@ -113,88 +113,8 @@ const About: NextPage = () => {
             </div>
             <div className='flex justify-center'>
                 <p className='text-primary sm:mb-16 sm:text-sm md:text-base text-xl text-center absolute md:top-80 sm:top-48 sm:mx-5 max-w-7xl'>
-                    I am a hardworker, fast learner and experienced programmer currently studying computer science. My professional goal is to work with cutting-edge technologies and collaborate with a talented team of developers to create innovative software solutions. Javascript, C++ and Solidity are my most comfortable programming languages, but I am still proficient in a variety of UI frameworks such as TailwindCSS, Bootstrap and more. I have a strong understanding and passion for blockchain technologies including but not limited to; Ethereum, Hardhat and decentralized applications. On my off time I enjoying snowboarding and also playing video games like Overwatch, Call of Duty and Rocket League. Feel free to <Link className='underline underline-offset-1' href='/contact'>contact</Link> me to learn more about my experience, skills and projects, and to discuss potential opportunities.
+                I am a hardworker, fast learner and experienced programmer currently studying computer science. My professional goal is to work with cutting-edge technologies and collaborate with a talented team of developers to create innovative software solutions. Javascript, C++ and Solidity are my most comfortable programming languages, but I am still proficient in a variety of UI frameworks such as TailwindCSS, Bootstrap and more. I have a strong understanding and passion for blockchain technologies including but not limited to; Ethereum, Hardhat and decentralized applications. On my off time I enjoying snowboarding and also playing video games like Overwatch, Call of Duty and Rocket League. Feel free to <Link className='underline underline-offset-1' href='/contact'>contact</Link> me to learn more about my experience, skills and projects, and to discuss potential opportunities.
                 </p>
-            </div>
-
-            <div className="absolute bottom-0 flex overflow-x-hidden w-screen">
-                <div className="py-12 animate-marquee whitespace-nowrap">
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                </div>
-
-                <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                    <span className="text-6xl mx-4">🎉</span>
-                    <span className="text-6xl mx-4">🎂</span>
-                </div>
             </div>
         </main>
   
