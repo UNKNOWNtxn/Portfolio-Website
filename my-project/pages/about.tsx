@@ -50,7 +50,7 @@ const About: NextPage = () => {
             />
             </Link>
         
-            <div className='absolute sm:text-xsm md:text-base md:top-40 md:left-44 sm:left-5 sm:top-24 sm:max-w-full md:max-w-7xl text-primary'>
+            <div className='absolute sm:text-xsm md:text-base md:top-40 md:left-44 sm:left-5 sm:top-28 sm:max-w-full md:max-w-7xl text-secondary'>
                 <WindupChildren>
                     {"Name: Reece Bailey"}
                     <br></br>
@@ -71,7 +71,7 @@ const About: NextPage = () => {
                     <Link className='underline underline-offset-1 relative left-8 ' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
                  </WindupChildren>
             </div>
-            <div className='sm:invisible md:visible grid grid-cols-2 fixed top-10 right-24 space-x-6' >
+            <div className='sm:invisible md:visible grid grid-cols-2 absolute top-10 right-24 space-x-6' >
                 <div className=''>
                     <Image className='rounded-lg'
                     src={Web2me}
@@ -91,7 +91,7 @@ const About: NextPage = () => {
                 <h3 className='text-primary relative left-4 top-3'>Web2 Me</h3>
                 <h3 className='text-primary relative left-8 top-3'>Web3 Me</h3>
             </div>
-                <div className='sm:visible md:invisible grid grid-cols-2 fixed top-5 right-5 space-x-2.5' >
+                <div className='sm:visible md:invisible grid grid-cols-2 absolute top-5 right-5 space-x-2.5' >
                 <div className=''>
                     <Image className='rounded-lg'
                     src={Web2me}
