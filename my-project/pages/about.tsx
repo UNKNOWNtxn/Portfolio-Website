@@ -32,7 +32,7 @@ const About: NextPage = () => {
           
         </Head>
 
-        <main className='bg-black object-cover h-screen font-pressStart'>
+        <main className='bg-black bg-cover h-screen w-screen font-pressStart'>
             <Link className='sm:invisible md:visible' href="/">
             <Image className='fixed top-5 left-5'
             src={logo}
@@ -92,7 +92,7 @@ const About: NextPage = () => {
                 <h3 className='text-primary relative left-8 top-3'>Web3 Me</h3>
             </div>
             <div className='flex justify-center'>
-                <p className='text-primary text-xl text-center absolute top-80 max-w-7xl'>
+                <p className='text-primary sm:text-sm text-xl text-center absolute top-80 max-w-7xl'>
                     I am a hardworker, fast learner and experienced programmer currently studying computer science. My professional goal is to work with cutting-edge technologies and collaborate with a talented team of developers to create innovative software solutions. Javascript, C++ and Solidity are my most comfortable programming languages, but I am still proficient in a variety of UI frameworks such as TailwindCSS, Bootstrap and more. I have a strong understanding and passion for blockchain technologies including but not limited to; Ethereum, Hardhat and decentralized applications. On my off time I enjoying snowboarding and also playing video games like Overwatch, Call of Duty and Rocket League. Feel free to <Link className='underline underline-offset-1' href='/contact'>contact</Link> me to learn more about my experience, skills and projects, and to discuss potential opportunities.
                 </p>
             </div>
