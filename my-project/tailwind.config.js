@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
 require('tailwind-typewriter')
+  const defaultTheme = require('tailwindcss/defaultTheme');
+
 
 module.exports = {
   content: [
@@ -9,6 +11,12 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    screens: {
+      'sm': '380px',
+      'md': '775px',
+      'lg': '1030px',
+      'xlg': '1310px',
+    },
     colors: {
       primary: '#2fcc4e',
       secondary: '#cb2727',
