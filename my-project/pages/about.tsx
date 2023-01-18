@@ -34,7 +34,7 @@ const About: NextPage = () => {
 
         <main className='bg-black sm:h-[135vh] md:bg-cover md:h-screen font-pressStart'>
             <Link className='sm:invisible md:visible z-10' href="/">
-            <Image className='fixed top-5 left-5'
+            <Image className='absolute top-5 left-5'
             src={logo}
             alt="BackHome"
             width={200}
