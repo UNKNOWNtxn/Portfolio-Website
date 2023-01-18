@@ -32,7 +32,7 @@ const About: NextPage = () => {
 
         <main className='bg-black h-screen font-pressStart'>
             <Link href="/">
-            <Image className='flex items-center justify-center'
+            <Image className='fixed top-5 left-5'
             src={logo}
             alt="hello"
             width={200}
@@ -40,7 +40,7 @@ const About: NextPage = () => {
             />
             </Link>
         
-            <div className='static flex ml-28 max-w-7xl text-primary'>
+            <div className='relative top-40 left-44 max-w-7xl text-primary'>
                 <WindupChildren>
                     {"Name: Reece Bailey"}
                     <br></br>
@@ -55,8 +55,8 @@ const About: NextPage = () => {
                     <br></br>
                     <Pause ms={480}/>
                     {"Social Media Links:"}
-                    <Link className='underline underline-offset-1 relative right-44 mt-24' href="https://github.com/Rbailey8857">Github</Link>
-                    <Link className='underline underline-offset-1 relative right-40 mt-24' href="https://www.linkedin.com/in/reece-bailey-1346811b2/">Linkedin</Link>
+                    <Link className='underline underline-offset-1 relative left-2' href="https://github.com/Rbailey8857">Github</Link>
+                    <Link className='underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/">Linkedin</Link>
                  </WindupChildren>
             </div>
         </main>
