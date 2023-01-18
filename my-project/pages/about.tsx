@@ -71,7 +71,7 @@ const About: NextPage = () => {
                     <Link className='underline underline-offset-1 relative left-8 ' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
                  </WindupChildren>
             </div>
-            <div className='sm:invisible grid grid-cols-2 fixed top-10 right-24 space-x-6' >
+            <div className='sm:invisible md:visible grid grid-cols-2 fixed top-10 right-24 space-x-6' >
                 <div className=''>
                     <Image className='rounded-lg'
                     src={Web2me}
@@ -88,11 +88,29 @@ const About: NextPage = () => {
                     height={180}
                     />
                 </div>
-                <h3 className='text-primary relative left-4 top-3'>Web2 Me</h3>
-                <h3 className='text-primary relative left-8 top-3'>Web3 Me</h3>
+            </div>
+                <div className='sm:visible md:invisible grid grid-cols-2 fixed top-5 right-5 space-x-2.5' >
+                <div className=''>
+                    <Image className='rounded-lg'
+                    src={Web2me}
+                    alt="hello"
+                    width={60}
+                    height={60}
+                />
+                </div>
+                <div className=''>
+                    <Image className='rounded-lg'
+                    src={Web3me}
+                    alt="hello"
+                    width={60}
+                    height={60}
+                    />
+                </div>
+                <h3 className='text-primary text-xsm relative right-3 top-3'>Web2 Me</h3>
+                <h3 className='text-primary text-xsm relative right-0 top-3'>Web3 Me</h3>
             </div>
             <div className='flex justify-center'>
-                <p className='text-primary sm:mb-16 sm:text-sm text-xl text-center absolute top-80 max-w-7xl'>
+                <p className='text-primary sm:mb-16 sm:text-sm md:text-base text-xl text-center absolute md:top-80 sm:top-48 sm:mx-5 max-w-7xl'>
                     I am a hardworker, fast learner and experienced programmer currently studying computer science. My professional goal is to work with cutting-edge technologies and collaborate with a talented team of developers to create innovative software solutions. Javascript, C++ and Solidity are my most comfortable programming languages, but I am still proficient in a variety of UI frameworks such as TailwindCSS, Bootstrap and more. I have a strong understanding and passion for blockchain technologies including but not limited to; Ethereum, Hardhat and decentralized applications. On my off time I enjoying snowboarding and also playing video games like Overwatch, Call of Duty and Rocket League. Feel free to <Link className='underline underline-offset-1' href='/contact'>contact</Link> me to learn more about my experience, skills and projects, and to discuss potential opportunities.
                 </p>
             </div>
