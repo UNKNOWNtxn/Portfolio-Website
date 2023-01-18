@@ -16,7 +16,7 @@ const Contact: NextPage = () => {
           <link rel="stylesheet" href="globals.css"/>
         </Head>
 
-        <main className='bg-black h-screen font-pressStart'>
+        <main className='bg-black h-[20px] font-pressStart'>
             <Link href="/">
             <Image className='pt-5 pl-5'
             src={logo}
