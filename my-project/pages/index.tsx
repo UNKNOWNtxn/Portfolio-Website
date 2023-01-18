@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             <li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'><Link href="/experience">Experience</Link></li>
             <li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 hover:bg-primary'><Link href="/contact">Contact</Link></li>
             <li className='text-secondary font-pressStart sm:invisible md:visible lg:visible xlg:visible text-center py-3'>Develop • Deliver • Dependable</li>
-            <li className='text-secondary relative bottom-16 font-pressStart sm:visible md:invisible lg:invisible xlg:invisible text-center py-3'> Develop • Deliver Dependable</li>
+            <li className='text-secondary relative bottom-16 font-pressStart sm:visible md:invisible lg:invisible xlg:invisible text-center py-3'>Develop • Deliver Dependable</li>
           </ul>
         </div>
       </main>

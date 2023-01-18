@@ -3,6 +3,8 @@ import Head from 'next/head'
 import { Pause, useWindupString } from "windups";
 import { WindupChildren } from "windups";
 import Image from 'next/image';
+import Web3me from '../public/images/Web3me.jpeg'
+import Web2me from '../public/images/Web2me.jpg'
 import Link from 'next/link';
 import logo from "../public/images/logo.png";
 
@@ -55,9 +57,35 @@ const About: NextPage = () => {
                     <br></br>
                     <Pause ms={480}/>
                     {"Social Media Links:"}
-                    <Link className='underline underline-offset-1 relative left-2' href="https://github.com/Rbailey8857">Github</Link>
-                    <Link className='underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/">Linkedin</Link>
+                    <Link className='underline underline-offset-1 relative left-2' href="https://github.com/Rbailey8857" target="_blank">Github</Link>
+                    <Link className='underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/" target="_blank">Linkedin</Link>
+                    <Link className='underline underline-offset-1 relative left-8' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
                  </WindupChildren>
+            </div>
+            <div className='grid grid-cols-2 fixed top-10 right-24 space-x-6' >
+                <div className=''>
+                    <Image className='rounded-lg'
+                    src={Web2me}
+                    alt="hello"
+                    width={180}
+                    height={180}
+                />
+                </div>
+                <div className=''>
+                    <Image className='rounded-lg'
+                    src={Web3me}
+                    alt="hello"
+                    width={180}
+                    height={180}
+                    />
+                </div>
+                <h3 className='text-primary relative left-4 top-3'>Web2 Me</h3>
+                <h3 className='text-primary relative left-8 top-3'>Web3 Me</h3>
+            </div>
+            <div className='flex justify-center'>
+                <p className='text-primary text-xl text-center absolute top-80 max-w-7xl'>
+                    I am a hardworker, fast learner and experienced programmer currently studying computer science. My professional goal is to work with cutting-edge technologies and collaborate with a talented team of developers to create innovative software solutions. Javascript, C++ and Solidity are my most comfortable programming languages, but I am still proficient in a variety of UI frameworks such as TailwindCSS, Bootstrap and more. I have a strong understanding and passion for blockchain technologies including but not limited to; Ethereum, Hardhat and decentralized applications. On my off time I enjoying snowboarding and also playing video games like Overwatch, Call of Duty and Rocket League. Feel free to <Link className='underline underline-offset-1' href='/contact'>contact</Link> me to learn more about my experience, skills and projects, and to discuss potential opportunities.
+                </p>
             </div>
         </main>
   
