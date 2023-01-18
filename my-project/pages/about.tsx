@@ -117,7 +117,7 @@ const About: NextPage = () => {
                 </p>
             </div>
 
-            <div className="absolute bottom-0 flex overflow-x-hidden">
+            <div className="absolute bottom-0 flex overflow-x-hidden w-screen">
                 <div className="py-12 animate-marquee whitespace-nowrap">
                     <span className="text-6xl mx-4">🎉</span>
                     <span className="text-6xl mx-4">🎂</span>
