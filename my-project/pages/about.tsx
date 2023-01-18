@@ -45,8 +45,8 @@ const About: NextPage = () => {
             <Image className=' sm:visible md:invisible fixed top-5 left-5'
             src={logo}
             alt="hello"
-            width={200}
-            height={200}
+            width={175}
+            height={175}
             />
             </Link>
         
