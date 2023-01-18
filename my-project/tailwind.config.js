@@ -53,6 +53,7 @@ module.exports = {
       }
     },
   plugins: [
+      require('tailwind-scrollbar-hide'),
       require('tailwind-typewriter') ({
         wordsets: {
             fruit: {
