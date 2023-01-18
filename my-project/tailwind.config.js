@@ -12,10 +12,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '380px',
-      'md': '775px',
-      'lg': '1030px',
-      'xlg': '1310px',
+      'sm': '350px', //Mobile
+      'md': '650px', //Tablet
+      'lg': '1030px', //Laptop
+      'xlg': '1310px', //Desktop
     },
     colors: {
       primary: '#2fcc4e',
