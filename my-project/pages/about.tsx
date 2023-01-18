@@ -88,6 +88,8 @@ const About: NextPage = () => {
                     height={180}
                     />
                 </div>
+                <h3 className='text-primary relative left-4 top-3'>Web2 Me</h3>
+                <h3 className='text-primary relative left-8 top-3'>Web3 Me</h3>
             </div>
                 <div className='sm:visible md:invisible grid grid-cols-2 fixed top-5 right-5 space-x-2.5' >
                 <div className=''>
