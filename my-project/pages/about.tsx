@@ -32,7 +32,7 @@ const About: NextPage = () => {
           
         </Head>
 
-        <main className='bg-black h-screen font-pressStart'>
+        <main className='bg-black object-cover h-screen font-pressStart'>
             <Link className='sm:invisible md:visible' href="/">
             <Image className='fixed top-5 left-5'
             src={logo}
@@ -45,12 +45,12 @@ const About: NextPage = () => {
             <Image className=' sm:visible md:invisible fixed top-5 left-5'
             src={logo}
             alt="hello"
-            width={175}
-            height={175}
+            width={125}
+            height={125}
             />
             </Link>
         
-            <div className='relative sm:text-sm md:text-base md:top-40 md:left-44 sm:left-10 sm:top-40 max-w-7xl text-primary'>
+            <div className='relative sm:text-xsm md:text-base md:top-40 md:left-44 sm:left-5 sm:top-32 sm:max-w-full md:max-w-7xl text-primary'>
                 <WindupChildren>
                     {"Name: Reece Bailey"}
                     <br></br>
@@ -67,7 +67,8 @@ const About: NextPage = () => {
                     {"Social Media Links:"}
                     <Link className='underline underline-offset-1 relative left-2' href="https://github.com/Rbailey8857" target="_blank">Github</Link>
                     <Link className='underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/" target="_blank">Linkedin</Link>
-                    <Link className='underline underline-offset-1 relative left-8' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
+                    
+                    <Link className='underline underline-offset-1 relative left-8 ' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
                  </WindupChildren>
             </div>
             <div className='sm:invisible grid grid-cols-2 fixed top-10 right-24 space-x-6' >
