@@ -32,7 +32,7 @@ const About: NextPage = () => {
 
         <main className='bg-black h-screen font-pressStart'>
             <Link href="/">
-            <Image className='pt-5 pl-5'
+            <Image className='flex items-center justify-center'
             src={logo}
             alt="hello"
             width={200}
