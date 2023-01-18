@@ -73,7 +73,7 @@ const About: NextPage = () => {
             </div>
             <div className='sm:invisible md:visible grid grid-cols-2 absolute top-10 right-24 space-x-6' >
                 <div className=''>
-                    <Image className='rounded-lg'
+                    <Image className='border-4 border-dashed border-primary rounded-lg'
                     src={Web2me}
                     alt="hello"
                     width={180}
@@ -81,7 +81,7 @@ const About: NextPage = () => {
                 />
                 </div>
                 <div className=''>
-                    <Image className='rounded-lg'
+                    <Image className='border-4 border-dashed border-primary rounded-lg'
                     src={Web3me}
                     alt="hello"
                     width={180}
@@ -93,7 +93,7 @@ const About: NextPage = () => {
             </div>
                 <div className='sm:visible md:invisible grid grid-cols-2 absolute top-5 right-5 space-x-2.5' >
                 <div className=''>
-                    <Image className='rounded-lg'
+                    <Image className='border-4 border-dashed border-primary rounded-lg'
                     src={Web2me}
                     alt="hello"
                     width={60}
@@ -101,7 +101,7 @@ const About: NextPage = () => {
                 />
                 </div>
                 <div className=''>
-                    <Image className='rounded-lg'
+                    <Image className='border-4 border-dashed border-primary rounded-lg'
                     src={Web3me}
                     alt="hello"
                     width={60}
