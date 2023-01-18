@@ -33,7 +33,7 @@ const About: NextPage = () => {
         </Head>
 
         <main className='bg-black h-screen font-pressStart'>
-            <Link href="/">
+            <Link className='sm:invisible md:visible' href="/">
             <Image className='fixed top-5 left-5'
             src={logo}
             alt="hello"
@@ -41,8 +41,16 @@ const About: NextPage = () => {
             height={200}
             />
             </Link>
+            <Link className='sm:visible md:invisible' href="/">
+            <Image className='fixed sm:visible md:invisible top-15 left-15'
+            src={logo}
+            alt="hello"
+            width={100}
+            height={100}
+            />
+            </Link>
         
-            <div className='relative top-40 left-44 max-w-7xl text-primary'>
+            <div className='relative sm:text-sm md:text-base md:top-40 md:left-44 sm:left-10 sm:top-40 max-w-7xl text-primary'>
                 <WindupChildren>
                     {"Name: Reece Bailey"}
                     <br></br>
@@ -62,7 +70,7 @@ const About: NextPage = () => {
                     <Link className='underline underline-offset-1 relative left-8' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
                  </WindupChildren>
             </div>
-            <div className='grid grid-cols-2 fixed top-10 right-24 space-x-6' >
+            <div className='sm:invisible grid grid-cols-2 fixed top-10 right-24 space-x-6' >
                 <div className=''>
                     <Image className='rounded-lg'
                     src={Web2me}
