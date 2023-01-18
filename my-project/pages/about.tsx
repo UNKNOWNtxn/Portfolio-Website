@@ -42,11 +42,11 @@ const About: NextPage = () => {
             />
             </Link>
             <Link className='sm:visible md:invisible' href="/">
-            <Image className='fixed sm:visible md:invisible top-15 left-15'
+            <Image className=' sm:visible md:invisible fixed top-5 left-5'
             src={logo}
             alt="hello"
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             />
             </Link>
         
