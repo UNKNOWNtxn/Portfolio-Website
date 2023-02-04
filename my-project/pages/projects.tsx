@@ -16,7 +16,7 @@ const Projects: NextPage = () => {
           <link rel="stylesheet" href="globals.css"/>
         </Head>
 
-        <main className='bg-black h-screen font-pressStart'>
+        <main className='bg-black h-screen font-pressStart relative'>
             <Link href="/">
             <Image className='pt-5 pl-5'
             src={logo}
@@ -25,6 +25,38 @@ const Projects: NextPage = () => {
             height={200}
             />
             </Link>
+            <div className='grid grid-rows-3'>
+              <div className='row-start-1 relative top-10'>
+                <h1 className='font-pressStart text-secondary underline mt-10 ml-40'>School Projects</h1>
+                <ul>
+                  <Link href="/about"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>CPSC 121 Object Oriented<br></br>
+                  </li></Link>
+                  <Link href="/projects"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>CPSC 131 Data Structures</li></Link>
+                </ul>
+              </div>
+
+              <div className='row-start-2'>
+                <h1 className='font-pressStart text-secondary underline ml-40'>Blockchain Projects</h1>
+                <ul>
+                  <Link href="/about"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>METASQUATCH NFT</li></Link>
+                  <Link href="/projects"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>Divorced Parents NFT</li></Link>
+                  <Link href="/experience"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>Voting System</li></Link>
+                  <Link href="/contact"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 hover:bg-primary'>To-do List Application</li></Link>
+                </ul>
+              </div>
+
+              <div className='row-start-3'>
+                <h1 className='font-pressStart text-secondary underline mt-10 ml-40'>Freelance Projects</h1>
+                <ul>
+                  <Link href="/about"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>About</li></Link>
+                  <Link href="/projects"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>Projects</li></Link>
+                  <Link href="/experience"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>Experience</li></Link>
+                  <Link href="/contact"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 hover:bg-primary'>Contact</li></Link>
+                </ul>
+              </div>
+            </div>
+            
+
         </main>
   
         
