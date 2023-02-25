@@ -29,9 +29,9 @@ const Projects: NextPage = () => {
               <div className='row-start-1 relative top-10'>
                 <h1 className='font-pressStart text-center text-secondary underline mt-10'>School Projects</h1>
                 <ul>
-                  <Link href="https://github.com/orgs/CSUF-CPSC121L-2022F/repositories" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>CPSC 121 Object Oriented<br></br>
+                  <Link href="https://github.com/Rbailey8857/CPSC121-Labs" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>CPSC 121 Object Oriented<br></br>
                   </li></Link>
-                  <Link href="https://github.com/orgs/2023-spring-puhp-cpsc-131/repositories" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>CPSC 131 Data Structures</li></Link>
+                  <Link href="https://github.com/Rbailey8857/CPSC-131-Labs" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>CPSC 131 Data Structures</li></Link>
                 </ul>
               </div>
 
