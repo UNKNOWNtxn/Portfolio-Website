@@ -25,6 +25,21 @@ const Contact: NextPage = () => {
             height={200}
             />
             </Link>
+
+            <div className="flex h-screen items-center flex-col mt-44">
+              <p className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center'>Phone Number:</p>
+              <p className='text-primary lg:text-2xl xlg:text-2xl font-pressStart'>+1(949)726-2009</p>
+              <br></br>
+              <br></br>
+              <p className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center'>Discord:</p>
+              <p className='text-primary lg:text-2xl xlg:text-2xl font-pressStart text-center'>UNKNOWN#2222</p>
+              <br></br>
+              <br></br>
+              <p className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center'>Email:</p>
+              <p className='text-primary lg:text-2xl xlg:text-2xl font-pressStart'>Reece.bailey8857@yahoo.com</p>
+            </div>
+            
+
         </main>
   
         

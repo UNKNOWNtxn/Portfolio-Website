@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Pause, useWindupString } from "windups";
 import { WindupChildren } from "windups";
 import Image from 'next/image';
-import Web3me from '../public/images/Web3me.jpeg'
+import Web3me from '../public/images/Web3me.gif'
 import Web2me from '../public/images/Web2me.jpg'
 import Link from 'next/link';
 import logo from "../public/images/logo.png";
