@@ -80,6 +80,7 @@ const About: NextPage = () => {
                     height={180}
                 />
                 </div>
+                <Link href='https://opensea.io/assets/ethereum/0x10064373e248bc7253653ca05df73cf226202956/6142' target='_blank'>
                 <div className=''>
                     <Image className='border-4 border-dashed border-primary rounded-lg'
                     src={Web3me}
@@ -88,6 +89,7 @@ const About: NextPage = () => {
                     height={180}
                     />
                 </div>
+                </Link>
                 <h3 className='text-primary relative left-4 top-3'>Web2 Me</h3>
                 <h3 className='text-primary relative left-8 top-3'>Web3 Me</h3>
             </div>
