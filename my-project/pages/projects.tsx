@@ -36,18 +36,19 @@ const Projects: NextPage = () => {
               </div>
 
               <div className='row-start-2'>
-                <h1 className='font-pressStart text-center text-secondary underline mt-10'>Blockchain Projects</h1>
+                <h1 className='font-pressStart text-center text-secondary underline mt-5'>Blockchain Projects</h1>
                 <ul>
                   <Link href="https://opensea.io/collection/metasquatch" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>METASQUATCH NFT</li></Link>
-                  <Link href="/projects"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>Voting System</li></Link>
-                  <Link href="https://github.com/Rbailey8857/Todo-List-App" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 hover:bg-primary'>To-do List Application</li></Link>
+                  <Link href="/projects"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-secondary'>Voting System (under construction) </li></Link>
+                  <Link href="https://www.divorcedparents.xyz/" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center py-3 w-screen hover:bg-primary'>Divorced Parents NFT</li></Link>
+                  <Link href="https://taskmaster-123.vercel.app/" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 hover:bg-primary'>TaskMaster Application</li></Link>
                 </ul>
               </div>
 
               <div className='row-start-3'>
                 <h1 className='font-pressStart text-secondary text-center underline mt-10'>Freelance Projects</h1>
                 <ul>
-                  <Link href="/contact" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary underline'>Coming soon...</li></Link>
+                  <Link href="/contact"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary underline'>Coming soon...</li></Link>
                 </ul>
               </div>
             </div>
