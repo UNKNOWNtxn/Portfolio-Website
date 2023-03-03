@@ -32,6 +32,7 @@ module.exports = {
       secondary: '#cb2727',
       black: colors.black,
       'white': '#ffffff',
+      grey: '#D3D3D3'
     },
     extend: {
       animation: {

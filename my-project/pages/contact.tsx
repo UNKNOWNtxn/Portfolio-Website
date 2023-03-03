@@ -16,33 +16,39 @@ const Contact: NextPage = () => {
           <link rel="stylesheet" href="globals.css"/>
         </Head>
 
-        <main className='bg-black h-[100%] font-pressStart'>
+        <main className='bg-black h-screen font-pressStart'>
+          <div className="flex flex-col justify-center h-full items-center px-5">
             <Link href="/">
-            <Image className='pt-5 pl-5'
-            src={logo}
-            alt="hello"
-            width={200}
-            height={200}
-            />
+              <Image src={logo} alt="logo" width={200} height={200} />
             </Link>
+            <div className="flex flex-col items-center mt-10">
+              <h2 className="text-white text-2xl font-bold mb-5">Contact Me</h2>
+              <div className="flex flex-col items-start">
+                <p className='text-white text-lg font-medium mb-1'>Phone:</p>
+                <a href="tel:+19497262009" className='text-primary text-lg font-medium mb-5'>+1(949)726-2009</a>
 
-            <div className="flex h-screen items-center flex-col mt-44">
-              <p className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center'>Phone Number:</p>
-              <p className='text-primary lg:text-2xl xlg:text-2xl font-pressStart'>+1(949)726-2009</p>
-              <br></br>
-              <br></br>
-              <p className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center'>Discord:</p>
-              <p className='text-primary lg:text-2xl xlg:text-2xl font-pressStart text-center'>UNKNOWN#2222</p>
-              <br></br>
-              <br></br>
-              <p className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center'>Email:</p>
-              <p className='text-primary lg:text-2xl xlg:text-2xl font-pressStart'>Reece.bailey8857@yahoo.com</p>
+                <p className='text-white text-lg font-medium mb-1'>Email:</p>
+                <a href="mailto:reece.bailey8857@yahoo.com" className='text-primary text-lg font-medium mb-5'>Reece.bailey8857@yahoo.com</a>
+
+                <form action="#" method="POST">
+                  <label className="text-white text-lg font-medium mb-1" htmlFor="name">*Name:</label>
+                  <input type="text" id="name" name="name" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required />
+
+                  <label className="text-white text-lg font-medium mb-1" htmlFor="email">*Email:</label>
+                  <input type="email" id="email" name="email" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required />
+
+                  <label className="text-white text-lg font-medium mb-1" htmlFor="email">Phone Number:</label>
+                  <input id="email" name="email" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required />
+                  
+                  <label className="text-white text-lg font-medium mb-1" htmlFor="message">*Message:</label>
+                  <textarea id="message" name="message" rows="5" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required></textarea>
+
+                  <button type="submit" className="bg-primary text-white text-lg font-medium py-2 px-4 rounded-md hover:bg-secondary">Send</button>
+                </form>
+              </div>
             </div>
-            
-
+          </div>
         </main>
-  
-        
         </>
     )
   }
