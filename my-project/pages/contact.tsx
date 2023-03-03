@@ -24,16 +24,16 @@ const Contact: NextPage = () => {
       <Image src={logo} alt="logo" width={200} height={200} />
     </Link>
     <div className="flex flex-col items-center mt-10">
-      <h2 className="text-white text-2xl font-bold mb-5">Contact Me</h2>
-      <div className="flex flex-col items-start mb-5">
-        <p className='text-white text-lg font-medium'>Phone:</p>
-        <a href="tel:+19497262009" className='text-primary text-lg font-medium mb-2'>
-          <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />+1(949)726-2009</a>
+  <h2 className="text-white text-2xl font-bold mb-5">Contact Me</h2>
+  <div className="flex flex-col items-start mb-5">
+    <p className='text-white text-lg font-medium'>Phone:</p>
+    <a href="tel:+19497262009" className='text-primary text-lg font-medium mb-2'>
+      {/* <FontAwesomeIcon icon={faPhoneAlt} className="mr-2 icon-size"/>*/}+1(949)726-2009</a> 
 
-        <p className='text-white text-lg font-medium'>Email:</p>
-        <a href="mailto:reece.bailey8857@yahoo.com" className='text-primary text-lg font-medium mb-2'>
-          <FontAwesomeIcon icon={faEnvelope} className="mr-2" />Reece.bailey8857@yahoo.com</a>
-      </div>
+    <p className='text-white text-lg font-medium'>Email:</p>
+    <a href="mailto:reece.bailey8857@yahoo.com" className='text-primary text-lg font-medium mb-2'>
+      {/* <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-fa" />*/}Reece.bailey8857@yahoo.com</a> 
+  </div>
 
       <form action="#" method="POST">
         <label className="text-gray-400 text-lg font-medium mb-1 text-white" htmlFor="name">*Name:</label>
