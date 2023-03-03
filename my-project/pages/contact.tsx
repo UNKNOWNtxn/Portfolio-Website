@@ -41,7 +41,7 @@ const Contact: NextPage = () => {
                   <input id="email" name="email" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required />
                   
                   <label className="text-white text-lg font-medium mb-1" htmlFor="message">*Message:</label>
-                  <textarea id="message" name="message" rows="5" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required></textarea>
+                  <textarea id="message" name="message" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-grey" required></textarea>
 
                   <button type="submit" className="bg-primary text-white text-lg font-medium py-2 px-4 rounded-md hover:bg-secondary">Send</button>
                 </form>
