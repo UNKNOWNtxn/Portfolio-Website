@@ -65,7 +65,7 @@ const About: NextPage = () => {
                     <br></br>
                     <Pause ms={480}/>
                     {"Links:"}
-                    <Link className='underline underline-offset-1 relative left-2' href="https://github.com/Rbailey8857" target="_blank">Github</Link>
+                    <Link className='underline underline-offset-1 relative left-2' href="https://github.com/UNKNOWNtxn" target="_blank">Github</Link>
                     <Link className='underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/" target="_blank">Linkedin</Link>
                     
                     <Link className='underline underline-offset-1 relative left-8 ' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
