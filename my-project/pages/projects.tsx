@@ -29,7 +29,7 @@ const Projects: NextPage = () => {
               <div className='row-start-1 relative top-10'>
                 <h1 className='font-pressStart text-center text-secondary underline mt-10'>School Projects</h1>
                 <ul>
-                  <Link href="https://github.com/UNKNOWNtxn/CPSC121-Labs" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>CPSC 121 Object Oriented<br></br>
+                  <Link href="https://github.com/UNKNOWNtxn/CPSC-121-Labs" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>CPSC 121 Object Oriented<br></br>
                   </li></Link>
                   <Link href="https://github.com/UNKNOWNtxn/CPSC-131-Labs" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-primary'>CPSC 131 Data Structures</li></Link>
                 </ul>
