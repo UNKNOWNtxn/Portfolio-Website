@@ -65,7 +65,7 @@ const Projects: NextPage = () => {
             </ul>
           </div>
 
-          <div className='mb-10'>
+          <div>
             <h1 className="font-pressStart text-secondary text-center underline">
               Machine Learning Projects
             </h1>
