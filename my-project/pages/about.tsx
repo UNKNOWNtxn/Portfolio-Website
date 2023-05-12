@@ -65,10 +65,9 @@ const About: NextPage = () => {
                     <br></br>
                     <Pause ms={480}/>
                     {"Links:"}
-                    <Link className='underline underline-offset-1 relative left-2' href="https://github.com/UNKNOWNtxn" target="_blank">Github</Link>
-                    <Link className='underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/" target="_blank">Linkedin</Link>
-                    
-                    <Link className='underline underline-offset-1 relative left-8 ' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
+                    <Link className='hover:text-primary underline underline-offset-1 relative left-2' href="https://github.com/UNKNOWNtxn" target="_blank">Github</Link>
+                    <Link className='hover:text-primary underline underline-offset-1 relative left-5' href="https://www.linkedin.com/in/reece-bailey-1346811b2/" target="_blank">Linkedin</Link>
+                    <Link className='hover:text-primary underline underline-offset-1 relative left-8 ' href="https://www.instagram.com/rreecebailey/" target="_blank">Instagram</Link>
                  </WindupChildren>
             </div>
             <div className='sm:invisible md:visible grid grid-cols-2 absolute top-10 right-24 space-x-6' >

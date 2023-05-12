@@ -59,7 +59,7 @@ const Projects: NextPage = () => {
             <ul>
               <Link href="https://opensea.io/collection/metasquatch" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center mt-5 py-3 w-screen hover:bg-primary'>METASQUATCH NFT</li></Link>
               <Link href="/projects"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 w-screen hover:bg-secondary'>Voting System (under construction) </li></Link>
-              <Link href="https://www.bobovision.xyz/" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center py-3 w-screen hover:bg-primary'>BoboVision NFT</li></Link>
+              <Link href="https://www.bobo.vision/" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center py-3 w-screen hover:bg-primary'>BoboVision NFT</li></Link>
               <Link href="https://task-master-blush.vercel.app/" target="_blank"><li className='text-white lg:text-2xl xlg:text-2xl font-pressStart text-center  py-3 hover:bg-primary'>TaskMaster Application</li></Link>
 
             </ul>

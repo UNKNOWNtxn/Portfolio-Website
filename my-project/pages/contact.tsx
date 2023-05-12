@@ -46,7 +46,7 @@ const Contact: NextPage = () => {
         <label className="text-gray-400 text-lg font-medium mb-1 text-white" htmlFor="message">*Message:</label>
         <textarea id="message" name="message" className="border border-gray-400 rounded-md p-2 mb-5 w-full bg-gray-900 text-gray-100" required></textarea>
 
-        <button type="submit" className="bg-primary text-white text-lg font-medium py-2 px-4 rounded-md hover:bg-secondary transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">Send</button>
+        <button type="submit" className="bg-primary text-white text-lg font-medium py-2 px-4 rounded-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">Send</button>
       </form>
 
       <p className="text-lg mt-10 text-secondary">My contact page is currently under construction, please contact me via phone or email! :)</p>
